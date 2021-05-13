@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Experience_2</string>
+    <string name="action_settings">Settings</string>
+    <string name="progress1">圆形进度条对话框</string>
+     <string name="progress2">条形进度条对话框</string>
+    <string name="tips">请输入电话号码</string>
+    <string name="start">开始</string>
+
+</resources>
