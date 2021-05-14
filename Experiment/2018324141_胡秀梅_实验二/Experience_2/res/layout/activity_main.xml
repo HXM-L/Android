@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Main_Activity" >
+    tools:context=".Six_Activity" >
 
    <AutoCompleteTextView 
         android:id="@+id/autoTextView"
