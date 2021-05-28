@@ -35,6 +35,7 @@ public class Main extends Activity {
     }
 
 
+    //Â¼Òô
 	void initAudio() {
 		recorder1=new MediaRecorder();
 		startBtn1=(Button) findViewById(R.id.startBtn1);

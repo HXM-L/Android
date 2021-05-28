@@ -30,7 +30,7 @@ public class VideoPlayer extends Activity {
         videoView=(VideoView) findViewById(R.id.videoView);
         controller = new MediaController(this);
         //设置播放文件
-        videoView.setVideoURI(Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.second));
+        videoView.setVideoURI(Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.first));
         //关联VideoView和MediaController
         controller.setMediaPlayer(videoView);
         videoView.setMediaController(controller);
