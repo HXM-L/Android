@@ -6,6 +6,7 @@ import java.util.Date;
 
 import android.media.MediaRecorder;
 import android.os.Bundle;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.SurfaceHolder;
@@ -14,6 +15,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+@SuppressLint({ "SdCardPath", "SimpleDateFormat" })
 public class Main extends Activity {
 	MediaRecorder recorder1;	//Â¼ÒôµÄMediaRecorder
 	Button startBtn1;
