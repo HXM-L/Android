@@ -79,6 +79,7 @@ public class Main extends Activity {
 		});
 	}
 
+	//б╪фа
 	void initVideo() {
 		recorder2=new MediaRecorder();
 		startBtn2=(Button) findViewById(R.id.startBtn2);
